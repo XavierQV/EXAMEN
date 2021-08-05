@@ -35,11 +35,11 @@ namespace EXAMEN.Controllers
         {
             List<ViewModelTipoVehiculo> ltsTpovehiculo = _Context.TipoVehiculos.Select(q => new ViewModelTipoVehiculo
             {
-                Numerovehiculo=q.CodigoVehiculo,
-                Codigo = q.Codigo,
-                Descripcion = q.CodigoVehiculoNavigation.Nombre,
+                CodigoVehiculo=q.Codigo,
+                DescripcionVehiculo = q.Descripcion,
+                Nombre = q.CodigoVehiculoNavigation.Nombre,
                 Estado = q.Estado
-            }).Where(w => w.Estado ==1).ToList() ;
+            }).ToList() ;
 
             
             return View(ltsTpovehiculo);
