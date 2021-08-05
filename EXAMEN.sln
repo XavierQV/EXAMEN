@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXAMEN", "EXAMEN\EXAMEN.csproj", "{23DF3A99-9CE2-4B7A-AC91-750822D4D582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T_vehiculos", "T-vehiculos\T_vehiculos.csproj", "{A2C1DDCB-47C7-4034-8A24-9BD61E333045}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23DF3A99-9CE2-4B7A-AC91-750822D4D582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DF3A99-9CE2-4B7A-AC91-750822D4D582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DF3A99-9CE2-4B7A-AC91-750822D4D582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DF3A99-9CE2-4B7A-AC91-750822D4D582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C1DDCB-47C7-4034-8A24-9BD61E333045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C1DDCB-47C7-4034-8A24-9BD61E333045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C1DDCB-47C7-4034-8A24-9BD61E333045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C1DDCB-47C7-4034-8A24-9BD61E333045}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3A15AAB-5B2C-4A3C-B9CA-F1B80F44FC13}
+	EndGlobalSection
+EndGlobal
